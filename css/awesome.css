@@ -1,0 +1,99 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .awesome{
+    background-color: rgb(255, 255, 255);
+    padding: 100px 0;
+
+  }
+  .awesome-wrap{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;   
+   
+}
+.awesome-item-img{
+    max-width: 350px;
+    margin: 0 15px 50px;
+}
+.awesome-item-icon{
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 50%; 
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    margin: auto;
+}
+.awesome-item-icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 25px 1px #EC7979;
+  }
+  .fa-edit{
+    font-size: 4.1rem;
+    margin: auto;
+    color: #FF4343;
+ 
+ }
+ 
+ .fa-desktop{
+     font-size: 4.1rem;
+     margin: auto;
+     color: #FF4343;
+    
+  }
+ 
+ .fa-medapps{
+     font-size: 4.1rem;
+     margin: auto;
+     color: #FF4343;
+  }
+  .fa-shopping-cart{
+    font-size: 4.1rem;
+    margin: auto;
+    color: #FF4343;
+  }
+  .fa-check-circle{
+    font-size: 4.1rem;
+    margin: auto;
+    color: #FF4343;
+    ;
+  }
+  .fa-star{
+    font-size: 4.1rem;
+    margin: auto;
+    color: #FF4343;   
+  }
+  .awesome-item-title{
+    font-style:normal;
+    font-weight: 900;
+    margin: 20px 0;
+    text-align: center;
+    line-height: 1.75rem;
+    font-size: 1.5rem;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    
+}
+.awesome-title-text{
+    
+    font-family:"Raleway";
+    font-style: normal;
+    font-weight:400;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+

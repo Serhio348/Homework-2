@@ -33,7 +33,7 @@
     .portfolio-container{
       display: block;
       align-items: center;
-      padding:0 45px;
+     
     }
     .background-wrap{
       justify-content: space-around;
@@ -61,11 +61,15 @@ font-size: 14px;
 }
 .portfolio-container{
   display: block;
-  padding:0 120px;
+  
 }
+
 .footer-awesome{
   justify-content: space-between;
 }
+.slider-img{
+  display: flex;
+  flex-direction: column;
 
 }
 @media (max-width: 596px) {
@@ -75,9 +79,26 @@ font-size: 12px;
 .container{
   max-width: 350px;
 }
+.slider{
+  min-width: 350px;
+}
 .footer-share{
   display: block;
-  align-items: center;
+  margin: 15px 0;
+  
+}
+.slider-img{
+  display:inline-block;
+  
+}
+.footer-awesome{
+  display: block;
+  margin: 15px 0;
+  flex-direction: column;
+}
+.footer-links{
+  justify-content: center;
+}
 }
 
         

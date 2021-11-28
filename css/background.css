@@ -82,7 +82,7 @@
     font-size: 1.3rem;
     text-align: center;
     align-items: center;
-    margin: 0 3px 0;
+    margin: 0 5px 0 0;
       
 }
 .fa-facebook-f::before{
@@ -100,7 +100,7 @@
     color: rgba(198, 203, 205);
     font-size: 1.3rem;
     text-align: center;
-    margin: 0 3px 0;
+    margin: 0 5px 0 0;
     
 }
 .fa-twitter::before{
@@ -118,7 +118,7 @@
     color: rgba(198, 203, 205);
     font-size: 1.3rem;
     text-align: center;
-    margin: 0 3px 0;
+    margin: 0 5px 0 0;
     }
     .fa-linkedin::before{
     content: '';

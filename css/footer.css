@@ -15,8 +15,6 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
-    align-items: flex-start;
-    margin: auto;
     padding-bottom: 50px;
 }
 .footer-location {
@@ -47,20 +45,22 @@
     text-align: center;
     text-transform: capitalize;
     color: #FFFFFF;
-        
+    
 }
 .footer-share {
     max-width: 370px;
+    padding: 0 10px;
   }
 
 .footer-links{
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     flex-wrap: wrap;
-    margin: auto;
+    
 }
 .footer-activebox {
     max-width: 370px;
+    padding: 0 10px;
 
 }
 .footer-copyright {
@@ -82,5 +82,10 @@
 }
 .type-text {
     color: #FFFFFF;
-
+}
+#footer-facebook{
+    margin-right: 27px;
+}
+#footer-twitter{
+    margin-right: 27px;
 }
